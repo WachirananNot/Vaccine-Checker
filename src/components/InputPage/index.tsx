@@ -104,7 +104,7 @@ export default function InputPage() {
   };
   return (
     <Box sx={{ display: "flex", justifyContent: "center" }}>
-      <Box sx={{ width: "80%", height: "100%", p: { xs: 5, lg: 10 } }}>
+      <Box sx={{ width: "80%", height: "100%", p: { xs: 1, lg: 10 } ,py: { xs: 5} }}>
         <Typography
           sx={{
             fontSize: { xs: "16px", sm: "20px", md: "24px", lg: "30px" },
